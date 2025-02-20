@@ -23,12 +23,12 @@ function gotResults(error, results){
         document.getElementById("result_label").style.color="rgb(" + random_number_r+","+random_number_g+","+random_number_b+")";
         document.getElementById("result_confidence").style.color="rgb(" + random_number_r+","+random_number_g+","+random_number_b+")";
 
-        img= document.getElementById('PulmonSano')
-        img2=document.getElementById('PulmonIncha')
-        img3=document.getElementById('PulmonNeg')
-        img4=document.getElementById('PulmonHongo')
-        img3=document.getElementById('PulmonVenoso')
-        img4=document.getElementById('PulmonBact')
+        img= document.getElementById('Pulmon1')
+        img2=document.getElementById('Pulmon2')
+        img3=document.getElementById('Pulmon3')
+        img4=document.getElementById('Pulmon4')
+        img3=document.getElementById('Pulmon5')
+        img4=document.getElementById('Pulmon6')
 
         if(results[0].label=="Murmullo vesicular"){
             img.src='Pulmon1.gif';
