@@ -1,0 +1,39 @@
+body{
+    background-image: url(Fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Jersey 15", serif;
+}
+
+.header_div{
+    background: rgb(154, 187, 248);
+    color: rgb(255, 246, 246);
+}
+
+.main_div button{
+    font-family: "Jersey 15", serif;
+    margin-top: 30;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    background-color: rgb(154, 187, 248);
+    border-color: rgb(114, 148, 211);
+    border-width: 2.5px;
+}
+
+
+.copy_rigth_footer{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgb(154, 187, 248);
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(168, 131, 236);
+}
+
+
+
